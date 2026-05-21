@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Monthsarry 💜</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Main page -->
+  <div class="page" id="mainPage">
+    <div class="badge">💜 Monthly Anniversary</div>
+
+    <h1 class="headline">Happy 14th<br /><em>Monthsarry</em></h1>
+    <p class="sub">Take my hand
+Take my whole life, too
+For I can't help falling in love with you
+For I can't help falling in love with you</p>
+
+    <!-- Photo grid -->
+    <div class="photo-grid">
+      <div class="photo-card big">
+        <img src="img/img5.jpg" alt="Our memory 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+        <div class="photo-placeholder"><span>📷</span><small>Add your photo here</small></div>
+      </div>
+      <div class="photo-card">
+        <img src="img/img2.jpg" alt="Our memory 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+        <div class="photo-placeholder"><span>📷</span><small>Add your photo here</small></div>
+      </div>
+      <div class="photo-card">
+        <img src="img/img3.jpg" alt="Our memory 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+        <div class="photo-placeholder"><span>📷</span><small>Add your photo here</small></div>
+      </div>
+      <div class="photo-card wide">
+        <img src="img/img4.jpg" alt="Our memory 4" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+        <div class="photo-placeholder"><span>📷</span><small>Add your photo here</small></div>
+      </div>
+    </div>
+
+    <button class="surprise-btn" id="surpriseBtn">
+      <span class="btn-inner">
+        <span class="btn-icon">🎁</span>
+        <span>Click for a Surprise</span>
+      </span>
+      <div class="btn-ripple"></div>
+    </button>
+  </div>
+
+  <!-- Surprise overlay -->
+  <div class="surprise-overlay" id="surpriseOverlay">
+    <div class="confetti-wrap" id="confettiWrap"></div>
+    <div class="surprise-card">
+      <button class="close-btn" id="closeBtn">✕</button>
+      <div class="surprise-emoji">💌</div>
+      <h2 class="surprise-title">Hey Babi kooo Open this po</h2>
+      <p class="surprise-msg">
+        Hey Babi,Lovey,Wifey Sweetie,Bal,Mahal or kung ano pa,Ikaw lahat yon HAHAAHAHA Happy monthsarry babii kooo thankyou for staying with me kahit andami kong kasalanan sayo. Im sorry babi if madalas kitang napapaiyak in the past few days i didnt mean to hurt u po. Love i hope u appreciate this simple gift hhehehe di masyadong maganda pero okay na diba dont overthink na po na may iba ako kase im not stupid naman para gawin yun, Again thankyou for staying sa aking zero days, I Promise, pag meron na babawi po ako HAPPY MONTHSARRY BABIII MORE MONTHSARRY TO COME (wag moko i post) hehe💜
+      </p>
+      <div class="surprise-hearts">
+        <span>💜</span><span>🌸</span><span>💜</span><span>🌸</span><span>💜</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
